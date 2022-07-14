@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor { 
+
+
+
+}
+		
+#cabecera { 
+	padding: 0px;
+	
+ 	
+}
+
+
+#contenido1 { 
+	padding-top: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+
+height: auto;  
+background-color:#ededed; }
+
+
+
+
+
+#contenido2 { 
+
+}
+
+#contenido3 { 
+
+height: auto; }
+	
+#pie { 
+background-color:#29251e;
+
+	}		
+		
+#botonera { padding:0px;
+	
+
+	
+	}
+
+
+#contenidomensaje { 
+padding: 50px;
+	
+	}
+
+	
+#marca { 
+background-color:#ff0000;
+	
+	}
+	
+#redes { 
+background-color:#382dd6;
+	
+	}			
+
+#caja1 { 
+ padding: 15px;
+	
+	}
+#caja2 { 
+; padding: 15px;
+	
+	}
+#caja3 { 
+ padding: 15px;
+	
+	}
+#caja4 { 
+background-color:#666666; padding: 15px; 
+	
+	}	
+	
+	
+#pie1 { 
+background-color:#937bdb;
+	
+	}
+#pie2 { 
+background-color:#69579e;
+	
+	}
+#pie3 { 
+background-color:#423763;
+	
+	}	
+#textonegro{ color:#000; 
+	
+	}
+	
+	
+	
+	
+
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+	
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  
+ 
+  
+  
+  
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* .invalid class prevents CSS from automatically applying */
+.invalid input:required:invalid {
+  background: #BE4C54;
+}
+
+/* Mark valid inputs during .invalid state */
+.invalid input:required:valid {
+  background: #17D654;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+code {
+  padding: 0 0.15rem;
+  background: #f5f5f5;
+  border-radius: 0.2rem;
+}

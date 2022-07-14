@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.some-page-wrapper {
+  margin-left: 5px;
+  
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	margin: auto;
+  width: 100%;
+  
+	
+	
+}
+
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.double-column1 {
+  display: flex;
+  flex-direction: column;
+	padding: 10px;
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .column1 {
+    flex: 1
+  }
+
+  .double-column1 {
+    flex: 2
+  }
+}
+
+
+
+
+/*
+.una-column {
+    height: 100px;
+	
+	
+}
+
+.dos-column {
+  
+  height: 100px;
+	
+}
+
+.tres-column {
+ 
+  height: 100px;
+	
+}
+
+*/
+
+
+

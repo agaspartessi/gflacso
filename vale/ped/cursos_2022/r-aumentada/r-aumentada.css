@@ -1,0 +1,302 @@
+#page {
+    opacity: 1 !important;
+    display: block;
+    transition: all 1s ease !important;
+    background-image: url(https://virtual.flacso.org.ar/theme/gflacso/vale/ped/cursos_2022/bgn.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+body {
+    background-color: #fff;
+}
+
+#region-main {
+    border: none;
+}
+
+#page-footer.nova-foot {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#region-main .nav-tabs>li>a {
+    border-radius: 0!important;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+ul.nav.nav-tabs.mb-3 {
+    margin-left: 8px;
+}
+
+h2, h3 {
+    font-size: 36px;
+    line-height: 120%;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.course-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.course-content ul li.section.main {
+    border: none;
+}
+
+#page #region-main #section-0 div span.titulo {
+    font-size: 25px!important;
+}
+
+#page #region-main #section-0 .instancename {
+    color: #444;
+    font-size: 1.2em!important;
+    font-weight: 600!important;
+    margin-left: 3px!important;
+}
+
+#page #region-main #section-0 .instancename:hover {
+    color: #DC522A;
+}
+
+.instancename {
+    color: #444;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.instancename:before {
+    content: '\00BB';
+    font-size: 1.8em;
+    display: inline;
+    color: #DC522A;
+    position: relative;
+    top: 2px;
+    font-weight: 400;
+    margin-right: 3px;
+}
+
+a.aalink:hover {
+    text-decoration: none;
+}
+
+.instancename:hover {
+    color: #DC522A;
+}
+
+.course-content .section img.iconlarge, .overview-icon .icon {
+    display: none;
+}
+
+.section .activity .contentwithoutlink, .section .activity .activityinstance {
+    margin-top: 25px;
+}
+
+.section .activity .contentwithoutlink>a, .section .activity .activityinstance>a {
+    text-indent: -19px;
+    padding-left: 19px;
+}
+
+.section .activity .availabilityinfo, .section .activity .contentafterlink {
+    color: #DC522A;
+    font-weight: bold;
+    margin-left: 19px;
+    margin-top: 0.3em;
+}
+
+.block .header {
+    background-color: #f8e1a0;
+}
+
+.block .header h5 {
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.path-course-view #region-main {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(https://virtual.flacso.org.ar/theme/gflacso/vale/ped/cursos_2022/r-aumentada/fondo-r-aumentada.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.page-context-header  {
+    max-width: 900px;
+    height: 150px;
+    background-image: url(https://virtual.flacso.org.ar/theme/gflacso/vale/ped/cursos_2022/r-aumentada/banner-r-aumentada.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.path-course-view #page-header .titulo_curso {
+    display: none;
+}
+
+.banner-recursos-azuloscuro  {
+    background: #152F4E;
+    color: #fff;
+    padding: 15px 30px 15px 222px;
+    width: fit-content;
+    background-image: url(https://virtual.flacso.org.ar/theme/gflacso/vale/ped/cursos_2022/r-aumentada/trama-azuloscuro.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed';
+    font-size: 25px!important;
+    line-height: 24px!important;
+}
+
+.banner-recursos-azulclaro-1  {
+    background: #75b8c8 ;
+    color: #000;
+    padding: 15px 30px 15px 222px;
+    width: fit-content;
+    background-image: url(https://virtual.flacso.org.ar/theme/gflacso/vale/ped/cursos_2022/r-aumentada/trama1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed';
+    font-size: 25px!important;
+    line-height: 24px!important;
+}
+
+.banner-recursos-azulclaro-2  {
+    background: #3ba0c4;
+    color: #000;
+    padding: 15px 30px 15px 222px;
+    width: fit-content;
+    background-image: url(https://virtual.flacso.org.ar/theme/gflacso/vale/ped/cursos_2022/r-aumentada/trama2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed';
+    font-size: 25px!important;
+    line-height: 24px!important;
+}
+
+.banner-modulos-azuloscuro {
+    background-color: #152f4e;
+    border-radius: 0;
+    font-family: 'Roboto Condensed';
+    letter-spacing: .05rem;
+    padding: 30px;
+    border-bottom: 12px solid #f4d06f;
+    font-size: 25px!important;
+    line-height: 24px!important;
+    color: #fff;
+}
+
+.banner-modulos-azulclaro-1 {
+    background-color: #75b8c8 ;
+    border-radius: 0;
+    font-family: 'Roboto Condensed';
+    letter-spacing: .05rem;
+    padding: 30px 30px 30px 30px;
+    border-bottom: 12px solid #f4d06f;
+    color: #000;
+    font-size: 25px!important;
+    line-height: 24px!important;
+}
+
+.banner-modulos-azulclaro-2 {
+    background-color: #3ba0c4;
+    border-radius: 0;
+    font-family: 'Roboto Condensed';
+    letter-spacing: .05rem;
+    padding: 30px;
+    border-bottom: 12px solid #f4d06f;
+    font-size: 25px!important;
+    line-height: 24px!important;
+    color: #000;
+
+}
+
+.summary img {
+    position: relative;
+    right: -18px;
+    width: 160px;
+    height: auto;
+    padding-top: 0px;
+    margin: 0;
+}
+
+div.card-text {
+    font-size: .95rem!important;
+}
+
+@media (min-width: 1199px) {
+    .path-course-view #page-header .titulo_curso {
+        float: left;
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+    .page-context-header {
+        width: 100%;
+        max-width: 600px;
+        height: calc(100vw / 3);
+        background-image: url(https://virtual.flacso.org.ar/theme/gflacso/vale/ped/cursos_2022/r-aumentada/banner-r-aumentada-chico.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    .col-12, .col-xs-12 {
+        padding: 0;
+    }
+
+    .summary img {
+        width: 100px;
+        height: auto;
+        padding-top: 29px;
+        margin: 0;
+        position: absolute;
+        right: 19px;
+    }
+    
+    .banner-recursos-azuloscuro, .banner-recursos-azulclaro-1, .banner-recursos-azulclaro-2 {        
+        padding: 15px;
+        width: 100%;
+        background-image: none;
+        text-align: center;
+    }
+    
+    .course-content li.section ul {
+        padding-left: 0!important;
+        margin-left: 0;
+    }
+
+    .section .activity.modtype_label.label {
+        padding: 0;
+    }
+
+    .path-course-view #region-main {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .banner-modulos-azuloscuro, .banner-modulos-azulclaro-1, .banner-modulos-azulclaro-2 {
+        padding: 20px;
+    }
+
+    #region-main .nav-tabs li:hover, #region-main .nav-tabs li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card {
+        padding: 10px 10px 0 10px;
+    }
+
+    ul.nav.nav-tabs.mb-3 {
+        margin-right: 8px;
+    }
+}    

@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+P.S: if you like my content maybe you will become a donator and donate some money? That helps me to create new awesome materials. https://www.paypal.me/melnik909
+*/
+
+/* Links */
+
+.block_gflacso_comunicacion 
+{
+     background-color: #002b4e;
+     border: none;
+     margin-top: 0;
+     margin-bottom: 0 !important;
+     
+}
+
+
+.block_gflacso_comunicacion .header
+{
+     background-color: #002b4e;
+     border: none;
+}
+
+
+
+
+.block_gflacso_comunicacion .card-body
+{
+    background-color: transparent !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: auto;    
+}
+
+.block_gflacso_comunicacion .card-title
+{
+    display:none !important;
+}
+
+/*
+.block_gflacso_comunicacion .additional_links a 
+{
+    display:block !important;
+    width: 25% !important;
+    float: left !important;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    background-size: 64px auto;
+    background-position: center top;
+    padding-top: 84px;
+    
+}*/
+
+
+.additional_links{
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  
+}
+
+.block_gflacso_comunicacion .additional_links a 
+{
+  display: block !important;
+  width: 150px;
+  float: left !important;
+  color: #3f3f3f;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px auto;
+  background-size: 54px auto;
+  background-position: center top 20px;
+  background-color: #fff;
+  height: 145px;
+  padding: 90px 10px 15px;
+  border-radius: 15px;
+    font-size:16px;
+         
+}
+
+.block_gflacso_comunicacion .additional_links a.profesores{
+    background-image: url(img/enlaces/participante.svg);
+  
+}
+
+.block_gflacso_comunicacion .additional_links a.pregunta{
+    background-image: url(img/enlaces/soporte.svg);
+  
+}
+
+.block_gflacso_comunicacion .additional_links a.practica{
+    background-image: url(img/enlaces/documento.svg);
+  
+}
+
+.block_gflacso_comunicacion .additional_links a.tutorial{
+    background-image: url(img/enlaces/manual.svg);
+  
+}
+
+.block_gflacso_comunicacion .additional_links a.punto.azul{
+  background-size: 54px auto;
+  background-position: center top 20px;
+    background-image: url(img/enlaces/administrativos.svg);
+}
+
+
+
+@media screen and (max-width: 850px)
+{
+   .block_gflacso_comunicacion .additional_links a, .block_gflacso_comunicacion .additional_links a.punto.azul 
+    {
+        width: 110px;
+        height:105px;
+        background-size:25px auto;
+        background-position: top 20px center;
+      padding: 55px 10px 15px;
+        font-size:12px;
+        
+    }
+}
+
+@media screen and (max-width: 625px)
+{
+    .block_gflacso_comunicacion .additional_links{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
+   .block_gflacso_comunicacion .additional_links a, .block_gflacso_comunicacion .additional_links a.punto.azul 
+    {
+        width: 140px;
+        height: 115px;
+        background-size: 35px auto;
+        background-position: center top 20px;
+        padding: 65px 10px 15px;
+        font-size:14px;
+        
+    }
+}
